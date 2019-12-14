@@ -4,4 +4,8 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>1701;1702;1591;1573</NoWarn>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.Glyfada.Standard\source\R5T.Glyfada.Standard\R5T.Glyfada.Standard.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Southampton.Glyfada\source\R5T.Southampton.Glyfada\R5T.Southampton.Glyfada.csproj" />
+  </ItemGroup>
 </Project>
